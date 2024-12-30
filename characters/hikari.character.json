@@ -1,11 +1,8 @@
-import { Character, Clients, ModelProviderName, defaultCharacter } from "@ai16z/eliza";
-import { TwitterClientInterface } from "@ai16z/client-twitter";
-
-export const character: Character = {
+{
     "name": "Hikari",
     "plugins": [],
-    "clients": [Clients.DISCORD], // Clients.TELEGRAM
-    "modelProvider": ModelProviderName.OPENAI,
+    "clients": [],
+    "modelProvider": "openrouter",
     "settings": {
     "secrets": {},
     "voice": {
@@ -124,4 +121,4 @@ export const character: Character = {
     "evoke inspiration and motivation"
     ]
     }
-    };
+    }
