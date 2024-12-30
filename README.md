@@ -49,3 +49,4 @@ cp .env.example .env
 ```bash
 pnpm i && pnpm start
 ```
+# Hikari
