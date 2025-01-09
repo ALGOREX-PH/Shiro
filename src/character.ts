@@ -4,7 +4,7 @@ import { TwitterClientInterface } from "@ai16z/client-twitter";
 export const character: Character = {
     "name": "Hikari",
     "plugins": [],
-    "clients": [Clients.DISCORD], // Clients.TELEGRAM
+    "clients": [Clients.TWITTER], // Clients.TELEGRAM
     "modelProvider": ModelProviderName.OPENAI,
     "settings": {
     "secrets": {},
