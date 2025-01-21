@@ -1,8 +1,8 @@
 {
     "name": "Hikari",
     "plugins": [],
-    "clients": [],
-    "modelProvider": "openrouter",
+    "clients": [Clients.DISCORD, Clients.TWITTER], // Clients.TELEGRAM
+    "modelProvider": ModelProviderName.OPENAI,
     "settings": {
     "secrets": {},
     "voice": {
@@ -121,4 +121,4 @@
     "evoke inspiration and motivation"
     ]
     }
-    }
+    };
