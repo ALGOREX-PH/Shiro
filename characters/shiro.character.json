@@ -1,14 +1,11 @@
-import { Character, Clients, ModelProviderName, defaultCharacter } from "@ai16z/eliza";
-import { TwitterClientInterface } from "@ai16z/client-twitter";
-
-export const character: Character = {
+{
     "name": "Shiro",
     "plugins": [],
     "clients": [
-        Clients.TWITTER,
+      "DISCORD",
+      "TWITTER"
     ],
-    "people" [],
-    "modelProvider": ModelProviderName.OPENAI,,
+    "modelProvider": "OPENAI",
     "settings": {
       "secrets": {},
       "voice": {
@@ -143,4 +140,4 @@ export const character: Character = {
         "Highlight the dragon-human bond in a friendly manner"
       ]
     }
-  };
+  }
