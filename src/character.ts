@@ -7,8 +7,8 @@ export const character: Character = {
     "clients": [
         Clients.TWITTER,
     ],
-    "people" [],
-    "modelProvider": ModelProviderName.OPENAI,,
+    "people" : [],
+    "modelProvider": ModelProviderName.OPENAI,
     "settings": {
       "secrets": {},
       "voice": {
