@@ -50,3 +50,4 @@ cp .env.example .env
 pnpm i && pnpm start
 ```
 # Hikari# Shiro
+# Shiro
